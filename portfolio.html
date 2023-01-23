@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="2d.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" type="image/jpg" href="./images/logo.ico" />
+    <title>Alejandro Marino - Portfolio</title>
+</head>
+
+<body onload="mueveReloj()">
+    <header>
+
+        <div class="reloj">            
+
+            <form name="form_reloj" class="reloj">
+                <input type="text" name="reloj" size="10" class="reloj">
+            </form>
+
+            <form name="form_fecha" class="reloj">
+                <input type="text" name="fecha" size="10" class="reloj">
+            </form>
+            
+        </div>
+
+        <div class="caja">
+            <h1>
+                <img src="./images/logo-superior.png" alt="Logo Barbería Alura">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </h1>
+        </div>
+    </header>
+
+    <div class="container bg-dark">
+
+        <h2 class="text-white ">Mi portfolio</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card border border-3 shadow w-100">
+                    <a>
+                        <img class="card-img-top" width="100" src="./images/sbargentina.PNG" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">
+                            "SB Argentina"
+                        </h5>                        
+                        <a href="https://www.sbargentina.com.ar/tienda/" target="_blank">Sitio Web SB Argentina</a>
+                        <p class="card-text text-dark">
+                            Página web dedicada a la comercialización de insumos para instalaciones industriales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border border-3 shadow w-100">
+                    <a>
+                        <img class="card-img-top" width="100" src="./images/carhans.PNG" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">
+                            "Car Hans"
+                        </h5>
+                        <a href="http://www.carhans.com.ar/store/" target="_blank">Sitio Web Car Hans</a>
+                        <p class="card-text text-dark">
+                            Página web dedicada a la comercialización de Accesorios para Autos
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border border-3 shadow w-100">
+                    <a>
+                        <img class="card-img-top" width="100" src="./images/opticatotalvision.PNG" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">
+                            "Óptica Total Visión"
+                        </h5>
+                        <a href="http://www.opticatotalvision.com.ar/optica/" target="_blank">Sitio Web Óptica Total Visión</a>
+                        <p class="card-text text-dark">
+                            Página web dedicada a la comercialización lentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border border-3 shadow w-100">
+                    <a>
+                        <img class="card-img-top" width="100" src="./images/ceramica-trinidad.PNG" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">
+                            "Cerámica Trinidad"
+                        </h5>
+                        <a href="https://www.ceramicatrinidad.com.ar/" target="_blank">Sitio Web Cerámica Trinidad</a>
+                        <p class="card-text text-dark">
+                            Página web dedicada a la comercialización de cerámica artesanal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border border-3 shadow w-100">
+                    <a>
+                        <img class="card-img-top" width="100" src="./images/optica-avenida.PNG" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">
+                            "Óptica Avenida"
+                        </h5>
+                        <a href="http://www.opticavenida.com.ar/" target="_blank">Sitio Web Óptica Avenida</a>
+                        <p class="card-text text-dark">
+                            Página web dedicada a la comercialización de lentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border border-3 shadow w-100">
+                    <a>
+                        <img class="card-img-top" width="100" src="./images/qelectric.PNG" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">
+                            "Qelectric"
+                        </h5>
+                        <a href="http://www.qelectric.com.ar/" target="_blank">Sitio Web Qelectric</a>
+                        <p class="card-text text-dark">
+                            Página web dedicada a la comercialización de productos para electricidad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <img src="./images/Logo-pie.png" alt="Logo Pie de Página">
+        <p class="copyright">&copy Copyright Alejandro Marino 2022</p>
+    </footer>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
